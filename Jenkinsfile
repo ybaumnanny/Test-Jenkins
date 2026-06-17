@@ -1,3 +1,4 @@
+
 pipeline {
     agent any
 
@@ -21,7 +22,9 @@ pipeline {
             }
         }
         stage('Print this'){
-              echo 'Hello Yaman! Github Integration successfull.'
-              }
+            steps{
+                echo 'Hello Yaman!!! Github Integration completed!'
+            }
+        }
     }
 }
