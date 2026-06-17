@@ -20,7 +20,8 @@ pipeline {
                 sh 'cat README.md'
             }
         }
-        stage('Print this){
+        stage('Print this'){
               echo 'Hello Yaman! Github Integration successfull.'
+              }
     }
 }
